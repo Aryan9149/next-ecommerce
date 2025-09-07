@@ -1,4 +1,4 @@
-export default function Login() {
+export default function Home() {
   return (
     <div>
       <nav>
@@ -9,12 +9,8 @@ export default function Login() {
         <a href="/cart">Cart</a>
       </nav>
       <div style={{ textAlign: "center", marginTop: "50px" }}>
-        <h1>Login Page</h1>
-        <form>
-          <input type="text" placeholder="Email" /><br />
-          <input type="password" placeholder="Password" /><br />
-          <button type="submit">Login</button>
-        </form>
+        <h1>Welcome to My E-commerce Site</h1>
+        <p>This is the home page.</p>
       </div>
     </div>
   );
